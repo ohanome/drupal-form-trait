@@ -1,0 +1,22 @@
+{
+    "name": "ohanome/drupal-form-trait",
+    "description": "Form trait providing useful form field generators for building Drupal forms",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ohanome\\DrupalFormTrait\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "boatware",
+            "email": "boatware@ohano.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/core": ">=9.4"
+    }
+}
